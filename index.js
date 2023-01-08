@@ -19,7 +19,6 @@ app.use((req,res,next) =>{
     app.use(cors())
     next()
 })
-app.use(cors())
 app.use(cookieParser())
 app.use(express.json())
 
